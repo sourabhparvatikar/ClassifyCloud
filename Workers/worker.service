@@ -1,0 +1,10 @@
+[Unit]
+Description=Image classification worker
+
+[Service]
+ExecStart=/home/ubuntu/proj1-worker/worker.sh
+User=ubuntu
+Group=ubuntu
+
+[Install]
+WantedBy=multi-user.target
